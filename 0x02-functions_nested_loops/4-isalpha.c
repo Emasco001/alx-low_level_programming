@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isalpha - check the code for "_isalpha" Alphabetic character.
+ * isalpha - check the code for Holberton School students.
  *@c: letter being tested
  * Return: Always 0
  */
