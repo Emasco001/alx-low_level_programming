@@ -7,6 +7,7 @@
  * Return: Always 0
  */
 
+int _putchar(char c)
 int print_last_digit(int n)
 {
 	n = n % 10;
