@@ -5,11 +5,11 @@
  *
  */
 
- void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 
- int alpha;
- int alpha2;
+int alpha;
+int alpha2;
 
 	for (alpha = 0; alpha <= 9; alpha++)
 {
