@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print_alphabet_x10
+ * main - print_alphabet_x10 - prints the alphabet x10 
  *
  */
 
@@ -18,4 +18,4 @@ int alpha2;
 	_putchar(alpha2);
 }
 	_putchar('\n');	}
-	}	
+}	
