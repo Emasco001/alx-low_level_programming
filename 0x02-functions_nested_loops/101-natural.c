@@ -19,6 +19,6 @@ if ((n % 3 == 0) || (n % 5 == 0))
 		s = s + n;
 }
 }
-		printf("%d\n", s);
+{		printf("%d\n", s);
 		return (0);
 }
