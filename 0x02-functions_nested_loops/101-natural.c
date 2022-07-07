@@ -9,7 +9,9 @@
 int main(void)
 {
 int n, s  = 0;
+
 for (n = 3; n < 1024; n++)
+
 {
 if ((n % 3 == 0) || (n % 5 == 0))
 
