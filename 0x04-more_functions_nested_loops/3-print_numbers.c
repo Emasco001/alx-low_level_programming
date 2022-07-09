@@ -7,8 +7,6 @@
  * Return: void
  */
 
-
-
 void print_numbers(void)
 {
 char c;
