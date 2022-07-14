@@ -16,6 +16,7 @@ int c2 = 0;
 {
 	int t1 = a[c2];
 	int t2 = a[n - 1];
+
 	a[c2] = t2;
 	a[n - 1] = t1;
 	c2++;
