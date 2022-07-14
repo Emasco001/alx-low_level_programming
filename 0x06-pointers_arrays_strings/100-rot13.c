@@ -13,7 +13,7 @@ char half1[] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
 char half2[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 int i = 0, j;
 
-	while (s[i] != 0)
+while (s[i] != 0)
 {
 char c = s[i];
 
