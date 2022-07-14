@@ -13,7 +13,7 @@ int i = 0, j = 0;
 	char seps[] = {32, 10, 9, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 	int size = sizeof(seps) / sizeof(seps[0]);
 
-	while (s[i] != 0)
+while (s[i] != 0)
 {
 char c = s[i];
 
