@@ -21,6 +21,5 @@ int c = 48;
 	c++;
 	} while (c < 58);
 	putchar('\n');
-	
 	return (0);
 }
