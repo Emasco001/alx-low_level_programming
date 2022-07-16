@@ -14,14 +14,19 @@ int c;
 {
 int last = c % 10;
 int first = c / 10;
+
+	if (first == last)
+	continue;
+	if (first > last)
+	continue;
 	putchar((48 + first));
 	putchar((48 + last));
-
-	if (c == 99)
+	if (c == 89)
 	continue;
 	putchar(44);
 	putchar(' ');
 }
 	putchar('\n');
+
 	return (0);
 }
