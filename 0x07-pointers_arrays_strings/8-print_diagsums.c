@@ -14,7 +14,8 @@ void print_diagsums(int *a, int size)
 unsigned int sum1 = 0, sum2 = 0;
 int i;
 
-	for (i = 0; i < size; i++)
+for (i = 0; i < size; i++)
+	;
 {
 int i1 = i + size * i;
 int i2 = size * (i + 1) - (i + 1);
