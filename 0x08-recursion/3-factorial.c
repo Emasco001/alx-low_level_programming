@@ -4,10 +4,10 @@
  * factorial - this finds the factorial of a given number
  * @n - This is an argument passed to the function
  *
- * Return: the factorial of a given number, -1 if less than 0
+ * Return: the factorial of a given number
  */
 
-int factorial(int n)
+int factorial(int n);
 {
 	if (n < 0)
 	{
