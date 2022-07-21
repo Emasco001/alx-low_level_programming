@@ -30,10 +30,11 @@ int square_root(int i, int j)
  * Return: the natural square root found
  */
 
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
-int a = 1;
 {
+	int a = 1;
+
 	return (square_root(a, n));
 }
 }
