@@ -2,7 +2,7 @@
 
 /**
  * factorial - this finds the factorial of a given number
- * @n - This is an argument passed to the function
+ * @n: This is an argument passed to the function
  *
  * Return: the factorial of a given number
  */
