@@ -12,10 +12,10 @@ char *_strdup(char *str)
 {
 char *s;
 unsigned int size = 0, i;
-	
+
 	if (str == NULL)
 	return (NULL);
-	
+
 	while (*(str + size))
 	size++;
 
