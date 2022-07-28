@@ -23,7 +23,7 @@ int i, j;
 	for (i = 0; i < height; i++)
 {
 	*(p + i) = malloc(sizeof(int) * width);
-	if ((*p + i) == NULL)
+if ((*p + i) == NULL)
 {
 int k = 0;
 
