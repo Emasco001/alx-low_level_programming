@@ -2,39 +2,27 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array of chars
- * @size: size of the memory to print
- * @c: character to print
+ * create_array - creates array of char
+ * @size: size of the ar
+ * @c: initialize ar with char
  *
- * Return: a pointer of array or NULL if it fails
+ * Return: void
  */
+
 char *create_array(unsigned int size, char c)
 {
-char *array;
+char *s;
 unsigned int i;
-	i = 0;
 
-	if (size == 0)
-{
-	return ('\0');
-}
-	else
-{
-	array = malloc(sizeof(char) * size);
+	if (!size)
+	return (NULL);
 
-	if (array == '\0')
-{
+	s = malloc(sizeof(char) * size);
+	if (s == NULL)
 
-	return ('\0');
-}
-	else
-{
-	while (i < size)
-{
-	array[i] = c;
-	i++;
-}
-}
-	return (array);
-}
+		return (NULL);
+
+	for (i = 0; i < size; i++)
+	s[i] = c;
+	return (s);
 }
