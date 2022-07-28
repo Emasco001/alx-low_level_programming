@@ -25,7 +25,7 @@ int i, j;
 	*(p + i) = malloc(sizeof(int) * width);
 
 		if (*(p + i) == NULL)
-			;
+			
 
 	{
 int k = 0;
