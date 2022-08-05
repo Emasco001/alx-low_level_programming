@@ -53,9 +53,11 @@ char *s;
 	 format[j] == 's' || format[i] == 'f')
 {
 	printf(", ");
-	break;
-} j++;
+		break;
+}
+	j++;
 }
 	i++;
-} printf("\n");
+}
+	printf("\n");
 }
