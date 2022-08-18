@@ -19,7 +19,7 @@ unsigned int dec, size, i, exp;
 	dec = 0;
 	exp = size - 1;
 
-	while (b[i])
+while (b[i])
 {
 if (b[i] == '1')
 	dec += power(2, exp);
